@@ -1,17 +1,18 @@
 :root {
-    --primary-color: #ffffff;
-    --highlight-color: #8BD8BD;
-    --secondary-color: #243665;
+    --bg-color: #ffffff;
+    --brand-color: #8BD8BD;
+    --text-color: #243665;
     --light-gray-color: #D9D9D9;
     font-size: 18px;
-    color: var(--secondary-color)
+    color: var(--text-color)
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --primary-color: #051B2B;
-        --highlight-color: #5CE1E6;
-        --secondary-color: #D9D9D9;
+        --bg-color: #243665;
+        --brand-color: #8BD8BD;
+        --text-color: #ffffff;
+        --light-gray-color: #D9D9D9;
     }
 }
 
@@ -33,11 +34,11 @@ h2 {
 }
 
 a {
-    color: var(--secondary-color)
+    color: var(--text-color)
 }
 
 a:hover {
-    color: var(--highlight-color)
+    color: var(--brand-color)
 }
 form {
     display: flex;
@@ -55,8 +56,8 @@ form>p {
 form>button {
     margin-top: 10px;
     border: none;
-    background-color: var(--secondary-color);
-    color: var(--primary-color)
+    background-color: var(--text-color);
+    color: var(--bg-color)
 }
 
 input {
