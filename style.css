@@ -58,12 +58,14 @@ form>button {
     border: none;
     background-color: var(--brand-color);
     color: var(--text-color);
-    font-weight: 600;
+    font-weight: 700;
+    padding: .80rem;
 }
 
 input {
     border: 1px solid gainsboro;
     background-color: rgb(250, 249, 249);
+    padding: .60rem;
 }
 
 input:focus {
@@ -78,7 +80,6 @@ label {
 }
 
 form>button, input {
-    padding: .60rem;
     border-radius: 8px;
     width: 70vw;
 }
